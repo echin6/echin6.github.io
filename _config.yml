@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Neural Edworld"
+title                    : "Neural EdWorld"
 title_separator          : "-"
 name                     : "Edwin Chin"
 description              : "Blog on real estate, finance, machine learning and Data Science"
@@ -78,7 +78,7 @@ analytics:
 author:
   name             : "Edwin Chin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A collection of random thoughts and links related to real estate, finance and machine learning"
+  bio              : "A collection of random posts related to real estate, finance and machine learning"
   location         : "NYC"
   email            : "echin6@gmail.com"
   uri              :
