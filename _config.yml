@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Neural Ed"
 title_separator          : "-"
 name                     : "Edwin Chin"
 description              : "A collection of random thoughts and links related to real estate, finance and machine learning"
@@ -86,14 +86,14 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : http://www.facebook.com/edwinchin
+  facebook         : "edwinchin"
   foursquare       :
-  github           : http://github.com/eachin6
+  github           : "echin6"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : https://www.linkedin.com/in/edwin-chin-62392b1/
+  linkedin         : "edwin-chin-62392b1/"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
