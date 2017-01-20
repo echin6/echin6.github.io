@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Neural Ed"
 title_separator          : "-"
 name                     : "Edwin Chin"
-description              : "A collection of random thoughts and links related to real estate, finance and machine learning"
+description              : "Blog on real estate, finance, machine learning and Data Science"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "github.com/echin6"
@@ -78,7 +78,7 @@ analytics:
 author:
   name             : "Edwin Chin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "TBD"
+  bio              : "A collection of random thoughts and links related to real estate, finance and machine learning"
   location         : "NYC"
   email            : "echin6@gmail.com"
   uri              :
@@ -237,7 +237,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: true
       read_time: true
       comments: # true
