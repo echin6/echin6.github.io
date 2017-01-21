@@ -77,7 +77,7 @@ analytics:
 # Site Author
 author:
   name             : "Ed Chin"
-  avatar           : "/assets/images/head_square.pxm"
+  avatar           : "/assets/images/head_square.jpg"
   bio              : "A collection of random posts related to real estate, finance and machine learning"
   location         : "NYC"
   email            : "echin6@gmail.com"
