@@ -14,7 +14,7 @@ description              : "Blog on real estate, finance, machine learning and D
 url                      : "https://echin6.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "github.com/echin6"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/b1.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
