@@ -1,0 +1,29 @@
+body {
+  color: #222222;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #eeeeee;
+}
+
+header h1::before {
+  border-color: #333;
+}
+
+main figure:target {
+  background-color: rgba(254, 254, 254, 0.8);
+}
+
+footer {
+  background-color: #eeeeee;
+}
+
+footer .credit .heart {
+  color: red;
+}
+
+footer .credit a {
+  color: darkblue;
+}
+/*# sourceMappingURL=light.css.map */

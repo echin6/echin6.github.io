@@ -1,0 +1,26 @@
+@media (max-width: 800px) {
+  main figure:target img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  main figure:target figcaption {
+    left: 10px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+        grid-template-areas: "header" "main" "footer";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  header h1 {
+    text-align: center;
+    padding: 10px 10px 0;
+  }
+  main {
+    grid-auto-rows: 100px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

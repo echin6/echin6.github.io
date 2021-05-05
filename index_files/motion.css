@@ -1,0 +1,71 @@
+main figure {
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+main figure:hover img {
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+}
+
+main figure:target {
+  -webkit-transition: opacity 0s;
+  transition: opacity 0s;
+}
+
+main figure:target .photo {
+  pointer-events: unset;
+}
+
+main figure:target .photo img {
+  -webkit-animation: skale 1s linear;
+          animation: skale 1s linear;
+}
+
+main figure:target figcaption {
+  opacity: 0;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+main figure:target .photo:hover + figcaption,
+main figure:target figcaption:hover {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+main figure:target .btn * {
+  opacity: .6;
+}
+
+main figure:target .btn *:hover {
+  opacity: 1;
+}
+
+@-webkit-keyframes skale {
+  0% {
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes skale {
+  0% {
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+/*# sourceMappingURL=motion.css.map */
